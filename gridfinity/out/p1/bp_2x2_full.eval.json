@@ -1,0 +1,794 @@
+{
+  "bodies": [
+    {
+      "area_mm2": 18683.204695142587,
+      "bbox": {
+        "max": [
+          84.00000000000001,
+          84.0,
+          8.600000000000664
+        ],
+        "min": [
+          -1.776356839400261e-15,
+          0.0,
+          0.0
+        ]
+      },
+      "center_of_mass": [
+        41.99999999961578,
+        42.00000000201824,
+        2.5854931503175704
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 248,
+      "face_types": {
+        "cone": 32,
+        "cylinder": 20,
+        "plane": 58
+      },
+      "faces": 110,
+      "kernel": {
+        "edges": 248,
+        "faces": 110,
+        "shells": 1,
+        "vertices": 144
+      },
+      "mass_g": 42.91597204334032,
+      "material": "Default",
+      "name": "Baseplate",
+      "vertices": 144,
+      "volume_mm3": 33268.19538243436
+    }
+  ],
+  "body_count": 1,
+  "params": [
+    {
+      "comment": "",
+      "error": null,
+      "expression": "4",
+      "model": true,
+      "name": "d2",
+      "unit": "mm",
+      "value": 4.0
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.1500000000000001",
+      "model": true,
+      "name": "d5",
+      "unit": "mm",
+      "value": 1.1500000000000001
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.85",
+      "model": true,
+      "name": "d9",
+      "unit": "mm",
+      "value": 1.85
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.85",
+      "model": true,
+      "name": "d12",
+      "unit": "mm",
+      "value": 1.85
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.1500000000000001",
+      "model": true,
+      "name": "d16",
+      "unit": "mm",
+      "value": 1.1500000000000001
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.85",
+      "model": true,
+      "name": "d20",
+      "unit": "mm",
+      "value": 1.85
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.85",
+      "model": true,
+      "name": "d23",
+      "unit": "mm",
+      "value": 1.85
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.1500000000000001",
+      "model": true,
+      "name": "d27",
+      "unit": "mm",
+      "value": 1.1500000000000001
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.85",
+      "model": true,
+      "name": "d31",
+      "unit": "mm",
+      "value": 1.85
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.85",
+      "model": true,
+      "name": "d34",
+      "unit": "mm",
+      "value": 1.85
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.1500000000000001",
+      "model": true,
+      "name": "d38",
+      "unit": "mm",
+      "value": 1.1500000000000001
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.85",
+      "model": true,
+      "name": "d42",
+      "unit": "mm",
+      "value": 1.85
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "1.85",
+      "model": true,
+      "name": "d45",
+      "unit": "mm",
+      "value": 1.85
+    }
+  ],
+  "sketches": [
+    {
+      "curves": 8,
+      "dof": 2,
+      "id": 1,
+      "name": "Sketch1",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 3,
+      "name": "Sketch2",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 5,
+      "name": "Sketch3",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 7,
+      "name": "Sketch4",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 11,
+      "name": "Sketch5",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 13,
+      "name": "Sketch6",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 15,
+      "name": "Sketch7",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 19,
+      "name": "Sketch8",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 21,
+      "name": "Sketch9",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 23,
+      "name": "Sketch10",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 27,
+      "name": "Sketch11",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 29,
+      "name": "Sketch12",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 8,
+      "dof": 4,
+      "id": 31,
+      "name": "Sketch13",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    }
+  ],
+  "timeline": [
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 1,
+      "ms": 0.209589,
+      "name": "Sketch1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 2,
+      "ms": 2.1378880000000002,
+      "name": "Extrude1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 3,
+      "ms": 0.218193,
+      "name": "Sketch2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 4,
+      "ms": 1.8901379999999999,
+      "name": "Extrude2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 5,
+      "ms": 0.265158,
+      "name": "Sketch3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 6,
+      "ms": 2.00601,
+      "name": "Extrude3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 7,
+      "ms": 0.35039400000000004,
+      "name": "Sketch4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 8,
+      "ms": 1.701602,
+      "name": "Extrude4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 9,
+      "ms": 2100.68327,
+      "name": "Combine1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 10,
+      "ms": 150.30371200000002,
+      "name": "Combine2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 11,
+      "ms": 0.159036,
+      "name": "Sketch5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 12,
+      "ms": 2.6845,
+      "name": "Extrude5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 13,
+      "ms": 0.185599,
+      "name": "Sketch6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 14,
+      "ms": 1.730133,
+      "name": "Extrude6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 15,
+      "ms": 0.170456,
+      "name": "Sketch7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 16,
+      "ms": 1.512447,
+      "name": "Extrude7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 17,
+      "ms": 2276.9483790000004,
+      "name": "Combine3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 0.001191048277778865,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 18,
+      "ms": 818.5299120000001,
+      "name": "Combine4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 19,
+      "ms": 0.26005100000000003,
+      "name": "Sketch8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 20,
+      "ms": 1.8801340000000002,
+      "name": "Extrude8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 21,
+      "ms": 0.250496,
+      "name": "Sketch9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 22,
+      "ms": 2.251619,
+      "name": "Extrude9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 23,
+      "ms": 0.253184,
+      "name": "Sketch10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 24,
+      "ms": 1.638847,
+      "name": "Extrude10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 25,
+      "ms": 1812.570686,
+      "name": "Combine5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 0.001191048277778865,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 26,
+      "ms": 830.863783,
+      "name": "Combine6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 27,
+      "ms": 0.226518,
+      "name": "Sketch11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 28,
+      "ms": 3.290816,
+      "name": "Extrude11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 29,
+      "ms": 0.177084,
+      "name": "Sketch12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 30,
+      "ms": 3.7724759999999997,
+      "name": "Extrude12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 31,
+      "ms": 0.231195,
+      "name": "Sketch13",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 32,
+      "ms": 1.387105,
+      "name": "Extrude13",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 33,
+      "ms": 2324.173965,
+      "name": "Combine7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 0.001191048277778865,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 34,
+      "ms": 1209.9488350000001,
+      "name": "Combine8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    }
+  ],
+  "total": {
+    "area_mm2": 18683.204695142587,
+    "edges": 248,
+    "faces": 110,
+    "mass_g": 42.91597204334032,
+    "open_bodies_skipped": 0,
+    "vertices": 144,
+    "volume_mm3": 33268.19538243436
+  }
+}

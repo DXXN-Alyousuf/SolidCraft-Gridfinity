@@ -1,0 +1,697 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     0,
+     0
+    ],
+    "p1": [
+     84.0,
+     84.0
+    ],
+    "radius": 4.0
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 8.6,
+    "operation": "new",
+    "body_name": "Baseplate"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 4.0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     2.8500000000000014,
+     2.8500000000000014
+    ],
+    "p1": [
+     39.15,
+     39.15
+    ],
+    "radius": 1.1500000000000001
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 0.7,
+    "operation": "new",
+    "body_name": "C0_0B",
+    "taper": "45 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 4.7
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     2.1499999999999986,
+     2.1499999999999986
+    ],
+    "p1": [
+     39.85,
+     39.85
+    ],
+    "radius": 1.85
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.8,
+    "operation": "new",
+    "body_name": "C0_0C"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 6.5
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     2.1499999999999986,
+     2.1499999999999986
+    ],
+    "p1": [
+     39.85,
+     39.85
+    ],
+    "radius": 1.85
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.15,
+    "operation": "new",
+    "body_name": "C0_0D",
+    "taper": "45 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": -1.0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     12.0,
+     12.0
+    ],
+    "p1": [
+     30.0,
+     30.0
+    ],
+    "radius": 3.0
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 5.3,
+    "operation": "new",
+    "body_name": "C0_0W"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Baseplate",
+    "tools": [
+     "C0_0W"
+    ],
+    "operation": "cut"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "C0_0D",
+    "tools": [
+     "C0_0B",
+     "C0_0C"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Baseplate",
+    "tools": [
+     "C0_0D"
+    ],
+    "operation": "cut"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 4.0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     2.8500000000000014,
+     44.85
+    ],
+    "p1": [
+     39.15,
+     81.15
+    ],
+    "radius": 1.1500000000000001
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 0.7,
+    "operation": "new",
+    "body_name": "C0_1B",
+    "taper": "45 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 4.7
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     2.1499999999999986,
+     44.15
+    ],
+    "p1": [
+     39.85,
+     81.85
+    ],
+    "radius": 1.85
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.8,
+    "operation": "new",
+    "body_name": "C0_1C"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 6.5
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     2.1499999999999986,
+     44.15
+    ],
+    "p1": [
+     39.85,
+     81.85
+    ],
+    "radius": 1.85
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.15,
+    "operation": "new",
+    "body_name": "C0_1D",
+    "taper": "45 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": -1.0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     12.0,
+     54.0
+    ],
+    "p1": [
+     30.0,
+     72.0
+    ],
+    "radius": 3.0
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 5.3,
+    "operation": "new",
+    "body_name": "C0_1W"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Baseplate",
+    "tools": [
+     "C0_1W"
+    ],
+    "operation": "cut"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "C0_1D",
+    "tools": [
+     "C0_1B",
+     "C0_1C"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Baseplate",
+    "tools": [
+     "C0_1D"
+    ],
+    "operation": "cut"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 4.0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     44.85,
+     2.8500000000000014
+    ],
+    "p1": [
+     81.15,
+     39.15
+    ],
+    "radius": 1.1500000000000001
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 0.7,
+    "operation": "new",
+    "body_name": "C1_0B",
+    "taper": "45 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 4.7
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     44.15,
+     2.1499999999999986
+    ],
+    "p1": [
+     81.85,
+     39.85
+    ],
+    "radius": 1.85
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.8,
+    "operation": "new",
+    "body_name": "C1_0C"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 6.5
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     44.15,
+     2.1499999999999986
+    ],
+    "p1": [
+     81.85,
+     39.85
+    ],
+    "radius": 1.85
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.15,
+    "operation": "new",
+    "body_name": "C1_0D",
+    "taper": "45 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": -1.0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     54.0,
+     12.0
+    ],
+    "p1": [
+     72.0,
+     30.0
+    ],
+    "radius": 3.0
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 5.3,
+    "operation": "new",
+    "body_name": "C1_0W"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Baseplate",
+    "tools": [
+     "C1_0W"
+    ],
+    "operation": "cut"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "C1_0D",
+    "tools": [
+     "C1_0B",
+     "C1_0C"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Baseplate",
+    "tools": [
+     "C1_0D"
+    ],
+    "operation": "cut"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 4.0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     44.85,
+     44.85
+    ],
+    "p1": [
+     81.15,
+     81.15
+    ],
+    "radius": 1.1500000000000001
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 0.7,
+    "operation": "new",
+    "body_name": "C1_1B",
+    "taper": "45 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 4.7
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     44.15,
+     44.15
+    ],
+    "p1": [
+     81.85,
+     81.85
+    ],
+    "radius": 1.85
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.8,
+    "operation": "new",
+    "body_name": "C1_1C"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": 6.5
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     44.15,
+     44.15
+    ],
+    "p1": [
+     81.85,
+     81.85
+    ],
+    "radius": 1.85
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.15,
+    "operation": "new",
+    "body_name": "C1_1D",
+    "taper": "45 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": -1.0
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     54.0,
+     54.0
+    ],
+    "p1": [
+     72.0,
+     72.0
+    ],
+    "radius": 3.0
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 5.3,
+    "operation": "new",
+    "body_name": "C1_1W"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Baseplate",
+    "tools": [
+     "C1_1W"
+    ],
+    "operation": "cut"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "C1_1D",
+    "tools": [
+     "C1_1B",
+     "C1_1C"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Baseplate",
+    "tools": [
+     "C1_1D"
+    ],
+    "operation": "cut"
+   }
+  }
+ ]
+}
